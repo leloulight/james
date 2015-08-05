@@ -15,8 +15,8 @@ Version 2.3.2.1
 ===============
 Is a maintenance release which is compatible with 2.3.2.
 
-This release fixes a reported security vulnerability. Therefore, we STRONGLY recommend all James v2
-users upgrading to this release as a matter of urgency.
+This release fixes a reported security vulnerability. We STRONGLY recommend all James v2
+users upgrade to this release as a matter of urgency.
 
 For existing deployments the most significant change is that the UsersFileRepository now validates user
 names for RFC 3696 compliance. The vast majority of existing user names will already be compliant. Those
