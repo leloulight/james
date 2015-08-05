@@ -812,7 +812,7 @@ Regards, Postmaster XXX.YYY
          <administrator_accounts>
 <!-- CHECKME! -->
             <!-- Change the default login/password. -->
-            <account login="root" password="root"/>
+            <account login="root" password="!changeme!"/>
          </administrator_accounts>
          <connectiontimeout> 60000 </connectiontimeout>
          <!-- The prompt directive adds a prompt to every output from RemoteManager -->

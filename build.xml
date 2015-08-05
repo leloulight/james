@@ -343,7 +343,8 @@ Legal:
           <param name="-version"/>
           <param name="-use"/>
           <param name="-breakiterator"/>
-          <param name="-link" value="http://java.sun.com/j2se/1.4/docs/api"/>
+          <!-- <param name="-link" value="http://java.sun.com/j2se/1.4/docs/api"/> -->
+          <param name="-link" value="http://docs.oracle.com/javase/1.5.0/docs/api/"/>	
           <param name="-link" value="http://java.sun.com/j2ee/sdk_1.3/techdocs/api"/>
           <param name="-link" value="http://avalon.apache.org/api"/>
           <param name="-link" value="http://avalon.apache.org/phoenix/api"/>
@@ -362,7 +363,8 @@ Legal:
           <param name="-version"/>
           <param name="-breakiterator"/>
           <param name="-use"/>
-          <param name="-link" value="http://java.sun.com/j2se/1.4/docs/api"/>
+          <!-- <param name="-link" value="http://java.sun.com/j2se/1.4/docs/api"/> -->
+          <param name="-link" value="http://docs.oracle.com/javase/1.5.0/docs/api/"/>
           <param name="-link" value="http://java.sun.com/j2ee/sdk_1.3/techdocs/api"/>
           <param name="-link" value="http://avalon.apache.org/api"/>
           <param name="-link" value="http://avalon.apache.org/phoenix/api"/>
