@@ -12,10 +12,17 @@ is one of James' strengths, and can allow administrators to produce powerful
 applications surprisingly easily. 
 
 Version 2.3.2.1
-=============
-Is a maintenance release which is compatible with 2.3.2 except for introduction of some constraints
-on user names when the UsersFileRepository is configured as the user repository. User names are now
-validated for RFC 3696 compliance.  
+===============
+Is a maintenance release which is compatible with 2.3.2.
+
+This release fixes a reported security vulnerability. Therefore, we STRONGLY recommend all James v2
+users upgrading to this release as a matter of urgency.
+
+For existing deployments the most significant change is that the UsersFileRepository now validates user
+names for RFC 3696 compliance. The vast majority of existing user names will already be compliant. Those
+that are not are likely to be having their sent mails rejected by MTAs and MUAs which require RFC 3696 
+compliance. This change prevents non-compliance when new users are added, therefore it does not affect
+existing users and is therefore backwards compatible with version 2.3.2. 
 
 Bug Fixes
  * JAMES-1600 - Javadocs task references obsolete URLs
